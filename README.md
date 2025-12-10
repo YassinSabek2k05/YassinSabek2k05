@@ -1,4 +1,51 @@
-[![Shooting Stars Banner](https://raw.githubusercontent.com/YassinSabek2k05/YassinSabek2k05/main/banner.html)](banner.html)
+<svg width="100%" viewBox="0 0 1000 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @keyframes shoot { 0% { x: -100; opacity: 0; } 10% { opacity: 1; } 90% { opacity: 1; } 100% { x: 1000; opacity: 0; } }
+      .shooting { animation: shoot 3s ease-in infinite; }
+      .star { fill: white; opacity: 0.6; }
+      .title { font-size: 48px; font-weight: bold; fill: url(#grad); text-anchor: middle; }
+      .subtitle { font-size: 20px; fill: white; text-anchor: middle; opacity: 0.9; }
+      #gradient { x1: "0%" y1: "0%" x2: "100%" y2: "100%"; }
+    </style>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#7c3aed;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ec4899;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background gradient -->
+  <rect width="1000" height="300" fill="url(#bgGrad)"/>
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0e27;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#1a1f3a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f1629;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Static stars -->
+  <circle cx="100" cy="50" r="1.5" class="star"/>
+  <circle cx="200" cy="80" r="1" class="star"/>
+  <circle cx="350" cy="40" r="1.5" class="star"/>
+  <circle cx="500" cy="60" r="1" class="star"/>
+  <circle cx="650" cy="45" r="1.5" class="star"/>
+  <circle cx="800" cy="70" r="1" class="star"/>
+  <circle cx="900" cy="55" r="1.5" class="star"/>
+  
+  <!-- Shooting stars -->
+  <line x1="-100" y1="80" x2="0" y2="80" stroke="white" stroke-width="2" opacity="0.8" class="shooting" style="animation-delay: 0s"/>
+  <line x1="-100" y1="140" x2="0" y2="140" stroke="white" stroke-width="2" opacity="0.8" class="shooting" style="animation-delay: 1s"/>
+  <line x1="-100" y1="200" x2="0" y2="200" stroke="white" stroke-width="2" opacity="0.8" class="shooting" style="animation-delay: 2s"/>
+  <line x1="-100" y1="110" x2="0" y2="110" stroke="white" stroke-width="2" opacity="0.8" class="shooting" style="animation-delay: 1.5s"/>
+  <line x1="-100" y1="170" x2="0" y2="170" stroke="white" stroke-width="2" opacity="0.8" class="shooting" style="animation-delay: 2.5s"/>
+  
+  <!-- Text content -->
+  <text x="500" y="120" class="title">Yassin Sabek</text>
+  <text x="500" y="160" class="subtitle">Full Stack Developer & Open Source Enthusiast</text>
+  <text x="500" y="185" class="subtitle" style="font-size: 16px; opacity: 0.7;">Building elegant solutions, one line of code at a time</text>
+</svg>
 
 <div align="center">
 
