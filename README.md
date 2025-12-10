@@ -1,6 +1,8 @@
-# Hi there, I'm Yassin Sabek! 👋
+[![Shooting Stars Banner](https://raw.githubusercontent.com/YassinSabek2k05/YassinSabek2k05/main/banner.html)](banner.html)
 
 <div align="center">
+
+# Hi there, I'm Yassin Sabek! 👋
 
 **Welcome to my GitHub profile!** I'm passionate about building innovative solutions and contributing to open source projects.
 
