@@ -1,68 +1,116 @@
-<svg width="100%" viewBox="0 0 1000 300" xmlns="http://www.w3.org/2000/svg">
+<svg width="100%" viewBox="0 0 1000 400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
   <defs>
-    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <style>
+      @keyframes twinkle {
+        0%, 100% { opacity: 0.3; }
+        50% { opacity: 1; }
+      }
+      @keyframes fadeInUp {
+        0% { opacity: 0; transform: translateY(20px); }
+        100% { opacity: 1; transform: translateY(0); }
+      }
+      @keyframes slideInLeft {
+        0% { opacity: 0; transform: translateX(-30px); }
+        100% { opacity: 1; transform: translateX(0); }
+      }
+      @keyframes glow {
+        0%, 100% { filter: drop-shadow(0 0 5px rgba(0, 212, 255, 0.5)); }
+        50% { filter: drop-shadow(0 0 20px rgba(124, 58, 237, 1)); }
+      }
+    </style>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:1" />
       <stop offset="50%" style="stop-color:#7c3aed;stop-opacity:1" />
       <stop offset="100%" style="stop-color:#ec4899;stop-opacity:1" />
     </linearGradient>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" style="stop-color:#0a0e27;stop-opacity:1" />
       <stop offset="50%" style="stop-color:#1a1f3a;stop-opacity:1" />
       <stop offset="100%" style="stop-color:#0f1629;stop-opacity:1" />
     </linearGradient>
   </defs>
   
-  <!-- Background gradient -->
-  <rect width="1000" height="300" fill="url(#bgGrad)"/>
+  <!-- Dark background -->
+  <rect width="1000" height="400" fill="url(#bgGrad)"/>
   
-  <!-- Static stars -->
-  <circle cx="100" cy="50" r="1.5" fill="white" opacity="0.6"/>
-  <circle cx="200" cy="80" r="1" fill="white" opacity="0.6"/>
-  <circle cx="350" cy="40" r="1.5" fill="white" opacity="0.6"/>
-  <circle cx="500" cy="60" r="1" fill="white" opacity="0.6"/>
-  <circle cx="650" cy="45" r="1.5" fill="white" opacity="0.6"/>
-  <circle cx="800" cy="70" r="1" fill="white" opacity="0.6"/>
-  <circle cx="900" cy="55" r="1.5" fill="white" opacity="0.6"/>
+  <!-- Twinkling stars background -->
+  <circle cx="50" cy="40" r="1.5" fill="white" opacity="0.4">
+    <animate attributeName="opacity" from="0.3" to="1" dur="2.5s" repeatCount="indefinite" begin="0s"/>
+  </circle>
+  <circle cx="150" cy="60" r="1" fill="white" opacity="0.4">
+    <animate attributeName="opacity" from="0.3" to="1" dur="2s" repeatCount="indefinite" begin="0.5s"/>
+  </circle>
+  <circle cx="300" cy="35" r="1.5" fill="white" opacity="0.4">
+    <animate attributeName="opacity" from="0.3" to="1" dur="2.2s" repeatCount="indefinite" begin="1s"/>
+  </circle>
+  <circle cx="450" cy="50" r="1" fill="white" opacity="0.4">
+    <animate attributeName="opacity" from="0.3" to="1" dur="2.8s" repeatCount="indefinite" begin="0.3s"/>
+  </circle>
+  <circle cx="600" cy="30" r="1.5" fill="white" opacity="0.4">
+    <animate attributeName="opacity" from="0.3" to="1" dur="2.4s" repeatCount="indefinite" begin="0.8s"/>
+  </circle>
+  <circle cx="750" cy="55" r="1" fill="white" opacity="0.4">
+    <animate attributeName="opacity" from="0.3" to="1" dur="2.6s" repeatCount="indefinite" begin="1.2s"/>
+  </circle>
+  <circle cx="900" cy="40" r="1.5" fill="white" opacity="0.4">
+    <animate attributeName="opacity" from="0.3" to="1" dur="2.3s" repeatCount="indefinite" begin="0.6s"/>
+  </circle>
+  <circle cx="100" cy="350" r="1" fill="white" opacity="0.4">
+    <animate attributeName="opacity" from="0.3" to="1" dur="2.5s" repeatCount="indefinite" begin="0.2s"/>
+  </circle>
+  <circle cx="400" cy="370" r="1.5" fill="white" opacity="0.4">
+    <animate attributeName="opacity" from="0.3" to="1" dur="2.1s" repeatCount="indefinite" begin="0.9s"/>
+  </circle>
+  <circle cx="800" cy="360" r="1" fill="white" opacity="0.4">
+    <animate attributeName="opacity" from="0.3" to="1" dur="2.7s" repeatCount="indefinite" begin="1.1s"/>
+  </circle>
   
-  <!-- Shooting star 1 -->
-  <line x1="0" y1="80" x2="100" y2="80" stroke="white" stroke-width="2" opacity="0.8">
-    <animate attributeName="x1" from="-200" to="1100" dur="3s" repeatCount="indefinite" begin="0s"/>
-    <animate attributeName="x2" from="-100" to="1200" dur="3s" repeatCount="indefinite" begin="0s"/>
-    <animate attributeName="opacity" from="0" to="0.8" dur="3s" repeatCount="indefinite" begin="0s" values="0;0.8;0.8;0"/>
+  <!-- Shooting stars -->
+  <g>
+    <!-- Shooting star 1 -->
+    <line x1="0" y1="120" x2="60" y2="120" stroke="white" stroke-width="2.5" stroke-linecap="round">
+      <animate attributeName="x1" from="-100" to="1100" dur="4s" repeatCount="indefinite" begin="0s"/>
+      <animate attributeName="x2" from="0" to="1200" dur="4s" repeatCount="indefinite" begin="0s"/>
+      <animate attributeName="opacity" from="0" to="1" dur="4s" repeatCount="indefinite" begin="0s" values="0;1;1;0"/>
+    </line>
+    
+    <!-- Shooting star 2 -->
+    <line x1="0" y1="200" x2="60" y2="200" stroke="white" stroke-width="2.5" stroke-linecap="round">
+      <animate attributeName="x1" from="-100" to="1100" dur="4s" repeatCount="indefinite" begin="1.2s"/>
+      <animate attributeName="x2" from="0" to="1200" dur="4s" repeatCount="indefinite" begin="1.2s"/>
+      <animate attributeName="opacity" from="0" to="1" dur="4s" repeatCount="indefinite" begin="1.2s" values="0;1;1;0"/>
+    </line>
+    
+    <!-- Shooting star 3 -->
+    <line x1="0" y1="280" x2="60" y2="280" stroke="white" stroke-width="2.5" stroke-linecap="round">
+      <animate attributeName="x1" from="-100" to="1100" dur="4s" repeatCount="indefinite" begin="2.4s"/>
+      <animate attributeName="x2" from="0" to="1200" dur="4s" repeatCount="indefinite" begin="2.4s"/>
+      <animate attributeName="opacity" from="0" to="1" dur="4s" repeatCount="indefinite" begin="2.4s" values="0;1;1;0"/>
+    </line>
+  </g>
+  
+  <!-- Main title with gradient and glow -->
+  <text x="500" y="170" font-size="56" font-weight="bold" fill="url(#textGrad)" text-anchor="middle" letter-spacing="2">
+    Yassin Sabek
+    <animate attributeName="opacity" from="0" to="1" dur="1s" begin="0s"/>
+  </text>
+  
+  <!-- Subtitle with fade animation -->
+  <text x="500" y="230" font-size="24" fill="white" text-anchor="middle" opacity="0.9">
+    Full Stack Developer
+    <animate attributeName="opacity" from="0" to="0.9" dur="1.2s" begin="0.3s"/>
+  </text>
+  
+  <!-- Description with delayed fade -->
+  <text x="500" y="270" font-size="16" fill="white" text-anchor="middle" opacity="0.7">
+    Building elegant solutions with code
+    <animate attributeName="opacity" from="0" to="0.7" dur="1.2s" begin="0.6s"/>
+  </text>
+  
+  <!-- Decorative line accent -->
+  <line x1="250" y1="310" x2="750" y2="310" stroke="url(#textGrad)" stroke-width="2" opacity="0.6">
+    <animate attributeName="opacity" from="0" to="0.6" dur="1.2s" begin="0.9s"/>
   </line>
-  
-  <!-- Shooting star 2 -->
-  <line x1="0" y1="140" x2="100" y2="140" stroke="white" stroke-width="2" opacity="0.8">
-    <animate attributeName="x1" from="-200" to="1100" dur="3s" repeatCount="indefinite" begin="1s"/>
-    <animate attributeName="x2" from="-100" to="1200" dur="3s" repeatCount="indefinite" begin="1s"/>
-    <animate attributeName="opacity" from="0" to="0.8" dur="3s" repeatCount="indefinite" begin="1s" values="0;0.8;0.8;0"/>
-  </line>
-  
-  <!-- Shooting star 3 -->
-  <line x1="0" y1="200" x2="100" y2="200" stroke="white" stroke-width="2" opacity="0.8">
-    <animate attributeName="x1" from="-200" to="1100" dur="3s" repeatCount="indefinite" begin="2s"/>
-    <animate attributeName="x2" from="-100" to="1200" dur="3s" repeatCount="indefinite" begin="2s"/>
-    <animate attributeName="opacity" from="0" to="0.8" dur="3s" repeatCount="indefinite" begin="2s" values="0;0.8;0.8;0"/>
-  </line>
-  
-  <!-- Shooting star 4 -->
-  <line x1="0" y1="110" x2="100" y2="110" stroke="white" stroke-width="2" opacity="0.8">
-    <animate attributeName="x1" from="-200" to="1100" dur="3s" repeatCount="indefinite" begin="1.5s"/>
-    <animate attributeName="x2" from="-100" to="1200" dur="3s" repeatCount="indefinite" begin="1.5s"/>
-    <animate attributeName="opacity" from="0" to="0.8" dur="3s" repeatCount="indefinite" begin="1.5s" values="0;0.8;0.8;0"/>
-  </line>
-  
-  <!-- Shooting star 5 -->
-  <line x1="0" y1="170" x2="100" y2="170" stroke="white" stroke-width="2" opacity="0.8">
-    <animate attributeName="x1" from="-200" to="1100" dur="3s" repeatCount="indefinite" begin="2.5s"/>
-    <animate attributeName="x2" from="-100" to="1200" dur="3s" repeatCount="indefinite" begin="2.5s"/>
-    <animate attributeName="opacity" from="0" to="0.8" dur="3s" repeatCount="indefinite" begin="2.5s" values="0;0.8;0.8;0"/>
-  </line>
-  
-  <!-- Text content -->
-  <text x="500" y="120" font-size="48" font-weight="bold" fill="url(#grad)" text-anchor="middle">Yassin Sabek</text>
-  <text x="500" y="160" font-size="20" fill="white" text-anchor="middle" opacity="0.9">Full Stack Developer & Open Source Enthusiast</text>
-  <text x="500" y="185" font-size="16" fill="white" text-anchor="middle" opacity="0.7">Building elegant solutions, one line of code at a time</text>
 </svg>
 
 <div align="center">
