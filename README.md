@@ -1,16 +1,28 @@
-## Hi there 👋
+# Hi there, I'm Yassin Sabek! 👋
 
-<!--
-**YassinSabek2k05/YassinSabek2k05** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Welcome to my GitHub profile! I'm a passionate developer interested in building innovative solutions and learning new technologies.
 
-Here are some ideas to get you started:
+## 🚀 About Me
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- 💻 I enjoy coding and problem-solving
+- 🌱 Currently learning and exploring new technologies
+- 🎯 Always looking to improve my skills and contribute to interesting projects
+- 🤝 Open to collaboration and new opportunities
+
+## 🛠️ Technologies & Tools
+
+![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github)
+![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
+![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=flat-square&logo=visual-studio-code)
+
+## 📊 GitHub Stats
+
+![Yassin's GitHub stats](https://github-readme-stats.vercel.app/api?username=YassinSabek2k05&show_icons=true&theme=radical)
+
+## 📫 Connect With Me
+
+Feel free to reach out if you want to collaborate on a project or just chat about technology!
+
+---
+
+⭐️ From [YassinSabek2k05](https://github.com/YassinSabek2k05)
