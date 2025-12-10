@@ -2,8 +2,6 @@
 
 I am a Computer Science and Engineering student at the **German University in Cairo (GUC)**.
 
-I'm currently in my **5th semester**, passionate about building software and learning new technologies.
-
 ---
 
 ## 🛠️ Tech Stack
