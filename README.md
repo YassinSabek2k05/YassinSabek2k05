@@ -1,13 +1,5 @@
 # Hi there, I'm Yassin Sabek! 👋
 
-Welcome to my GitHub profile! I'm a passionate developer interested in building innovative solutions and learning new technologies.
-
-## 🚀 About Me
-
-- 💻 I enjoy coding and problem-solving
-- 🌱 Currently learning and exploring new technologies
-- 🎯 Always looking to improve my skills and contribute to interesting projects
-- 🤝 Open to collaboration and new opportunities
 
 ## 🛠️ Technologies & Tools
 
