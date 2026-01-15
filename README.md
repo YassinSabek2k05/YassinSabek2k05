@@ -34,37 +34,80 @@ Here is a timeline of my projects throughout my semesters at GUC.
 ### 🎓 Semester 5 (Current)
 *Focusing on advanced topics and major projects.*
 
-- **[Project Name](https://github.com/YassinSabek2k05/semester-5-project)**
-  - *Description:* Brief description of your current main project (e.g., Advanced Web Engineering or Database project).
-  - *Tech:* Spring Boot, React, PostgreSQL
+- **[University HR Management System](https://github.com/YassinSabek2k05/University-Human-Resources-Management-System)**
+  - *Description:* A full-stack HR platform with a complex hierarchical approval system. Features an MSSQL backend with automated payroll/deduction logic and a Node.js/EJS frontend.
+  - *Tech:* MSSQL, T-SQL, Node.js, EJS, Express
+  - *Course:* CSEN501 - Data Base I
+
+- **[Smart Parking System (FPGA & Arduino Integration)](https://github.com/YassinSabek2k05/Smart-Parking-System)**
+  - *Description:* A fully functional 8-spot garage management system using Intel MAX 10 FPGA for core control and Arduino Mega for sensor processing. Features vehicle detection via IR sensors, FSM-based gate sequencing, hazard override for smoke detection, and capacity management with voltage-safe 3.3V/5V interfacing.
+  - *Tech:* VHDL, Arduino, FPGA (Intel MAX 10), Embedded Systems, Hardware Design
+  - *Course:* CSEN605 - Digital System Design 
+
+- **[Travel Log: Client-Server Web Application](https://github.com/YassinSabek2k05/networks_project)**
+  - *Description:* A full-stack traveling website demonstrating Client/Server architecture with session-based authentication, dynamic destination discovery, and personalized "Want-to-Go" lists. Emphasizes server-side rendering and persistent data management via MongoDB.
+  - *Tech:* Node.js, Express.js, MongoDB, EJS, Express-session
+  - *Course:* CSEN 503 - Introduction to Communication Networks
 
 ### 🎓 Semester 4
-- **[Project Name](https://github.com/YassinSabek2k05/semester-4-project)**
-  - *Description:* Project focusing on algorithms or database systems.
-  - *Tech:* Java, MSSQL
+- **[Jackaroo: A New Game Spin](https://github.com/YassinSabek2k05/Jackaroo-Team-28)**
+  - *Description:* A custom single-player Jackaroo board game implementation featuring a complete game engine with OOP principles (encapsulation, inheritance, polymorphism, interfaces) and a JavaFX GUI with marble path mapping and interactive animations.
+  - *Tech:* Java, JavaFX, OOP
+  - *Course:* CSEN401 - Computer Programming Lab
+
+- **[Logisim CPU Architecture](https://github.com/YassinSabek2k05/Computer-Organization-project)**
+  - *Description:* A hardware-level simulation of a processor's control unit and datapath. Implemented a custom Instruction Set Architecture (ISA) to execute iterative loops, handling complex timing cycles ($T_0–T_n$) for instructions like MUL, ADD, and ISZ.
+  - *Tech:* Logisim, Register Transfer Language (RTL), Digital Logic Design.
+  - *Course:* CSIS402 - Computer Organization and System Programming
+
+- **[Concepts of Programming Languages](https://github.com/YassinSabek2k05/Concepts)**
+  - *Description:* A dual-paradigm study. Includes a Prolog constraint-solver for university scheduling and a Haskell implementation of Dijkstra's algorithm for railway cost optimization.
+  - *Tech:* Haskell, Prolog, Functional Programming, Graph Theory.
+  - *Course:* CSEN403 - Concepts of Programming Languages
+
+- **[Audio Noise Cancellation System](https://github.com/YassinSabek2k05/Audio-Noise-Cancellation-System)**
+  - *Description:* A DSP project implementing Fourier analysis to clean synthetic audio. Synthesized piano notes using sinusoidal summation and removed random noise using FFT-based filtering.
+  - *Tech:* Python, NumPy, SciPy (FFT), Signal Processing
+  - *Course:* COMM401 - Signal and System Theory
 
 ### 🎓 Semester 3
-- **[Project Name](https://github.com/YassinSabek2k05/semester-3-project)**
-  - *Description:* Core computer science concepts and early implementation projects.
-  - *Tech:* Java, Data Structures
 
 ### 🎓 Semester 2
-- **[Project Name](https://github.com/YassinSabek2k05/semester-2-project)**
-  - *Description:* Introduction to programming projects and game development basics.
-  - *Tech:* Python or Java
 
 ### 🎓 Semester 1
-- **[Project Name](https://github.com/YassinSabek2k05/semester-1-project)**
-  - *Description:* Foundation courses and introductory computing tasks.
-  - *Tech:* Python, Haskell (or relevant intro language)
+
+---
+
+## 💼 Personal & Open-Source Projects
+
+- **[Home Lab: Headless Debian Server](https://status.yassinsabek.dev)**
+  - *Description:* A 24/7 headless Debian server running on dedicated low-power hardware, serving as a private sandbox for backend development, database orchestration, and systems testing.
+  - *Key Features:* Engineered a stable Linux environment with optimized file permissions and static IP configuration. Configured secure remote access via Cloudflare Tunnels and SSH to expose internal services without compromising local network security.
+  - *Core Services:*
+    - **OS:** Debian Linux (Stable)
+    - **Backend Runtimes:** Node.js, Java (Spring Boot)
+    - **Database Management:** PostgreSQL
+    - **Networking & Security:** Cloudflare Tunnels, SSH Key Authentication, Systemd Service Management
+  - *Status:* [Server Status Dashboard](https://status.yassinsabek.dev)
+
+---
+
+<!-- ## 🎖️ Certifications & Courses
+
+*Coming soon...* -->
 
 ---
 
 ## 📫 How to reach me
 
 - GitHub: [@YassinSabek2k05](https://github.com/YassinSabek2k05)
-- LinkedIn: [Yassin Sabek](https://linkedin.com/in/your-linkedin-url) *(Don't forget to update this link!)*
-- Email: your.email@student.guc.edu.eg
+- LinkedIn: [Yassin Sabek](https://www.linkedin.com/in/yassin-sabek/)
+- Personal Website: [yassinsabek.dev](https://yassinsabek.dev)
+
+### 📧 Emails
+- University Email: [yassin.sabek@student.guc.edu.eg](mailto:yassin.sabek@student.guc.edu.eg)
+- Contact: [contact@yassinsabek.dev](mailto:contact@yassinsabek.dev)
+
 
 <!--
 **YassinSabek2k05/YassinSabek2k05** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
