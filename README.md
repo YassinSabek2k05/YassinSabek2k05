@@ -3,7 +3,7 @@
 I am a Computer Science and Engineering student at the **German University in Cairo (GUC)**.
 
 ---
-
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=YassinSabek2k05)](https://github.com/anuraghazra/github-readme-stats)
 ## 🛠️ Tech Stack
 
 **Languages**
