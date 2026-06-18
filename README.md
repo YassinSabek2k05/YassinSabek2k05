@@ -89,7 +89,6 @@ Here is a timeline of my projects throughout my semesters at GUC.
     - **Backend Runtimes:** Node.js, Java (Spring Boot)
     - **Database Management:** PostgreSQL
     - **Networking & Security:** Cloudflare Tunnels, SSH Key Authentication, Systemd Service Management
-  - *Status:* [Server Status Dashboard](https://status.yassinsabek.dev)
 
 ---
 
