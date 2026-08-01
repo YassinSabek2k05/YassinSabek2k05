@@ -3,36 +3,60 @@
 I am a Computer Science and Engineering student at the **German University in Cairo (GUC)**.
 
 ---
-<!--
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=YassinSabek2k05)](https://github.com/anuraghazra/github-readme-stats) -->
-## 🛠️ Tech Stack
-
-**Languages**
+## Stack
+ 
+**Backend**
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-
-**Frameworks & Runtimes**
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-F2F4F9?style=for-the-badge&logo=spring-boot)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+ 
+**Frontend / other runtimes**
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-
-**Databases**
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Microsoft SQL Server](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
-
-**Tools**
-![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
-
+ 
+**Infra & tools**
+![Debian](https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
+![Tailscale](https://img.shields.io/badge/Tailscale-242424?style=for-the-badge&logo=tailscale&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Microsoft SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
+ 
+**Languages, by usage across repos**
+ 
+![Top Langs](https://github-stats-extended.vercel.app/api/top-langs/?username=YassinSabek2k05&layout=compact&theme=default&hide_border=true&langs_count=8&hide=html)
 ---
 
-## 📚 Academic Journey & Projects
+## Academic Journey & Projects
 
 Here is a timeline of my projects throughout my semesters at GUC.
 
-### 🎓 Semester 5 (Current)
+### Semester 6
+*Systems-level coursework: OS internals, computer architecture, databases, and software engineering.*
+
+- **[Daemon Hunters](https://github.com/YassinSabek2k05/OS_Project)**
+  - *Description:* A process scheduler simulation with a raylib GUI. Implements round-robin and HRRN scheduling over a simulated 40-word memory, with mutex-based resource contention and disk swapping when memory runs out.
+  - *Tech:* C, raylib, Round-robin & HRRN scheduling, Mutexes, Disk swapping
+  - *Course:* Operating Systems — Team lead
+
+- **[Pipelined Processor Simulator](https://github.com/YassinSabek2k05/pipelined-processor-sim)**
+  - *Description:* A 5-stage pipelined CPU simulator with a custom 32-bit instruction set. Visualizes instruction flow cycle-by-cycle in a live GUI, including structural and data hazards, load-use stalling, forwarding, and branch flushing.
+  - *Tech:* C, raylib, Custom ISA, Data forwarding, Hazard detection, CMake
+  - *Course:* Computer Architecture — Team lead
+
+- **[Mini DBMS](https://github.com/YassinSabek2k05/javadb)**
+  - *Description:* A file-based database engine built from scratch. Records are paginated and serialized to disk, selects can use bitmap indexes instead of a linear scan, and crash recovery replays an operation trace to rebuild lost pages.
+  - *Tech:* Java, File-based storage, Bitmap indexing, Crash recovery
+  - *Course:* Databases II — Solo build
+
+- **[GUC Project Portfolio Platform](https://github.com/YassinSabek2k05/[repo-unknown])**
+  - *Description:* A campus-wide platform for students to host course and bachelor projects, get supervisor feedback, and be discovered by employers. Requirements engineering in the first milestone, a React front end with mocked data in the second.
+  - *Tech:* React, Requirements Engineering, UML / Design Patterns
+  - *Course:* Software Engineering — Team project
+  
+### Semester 5 (Current)
 *Focusing on advanced topics and major projects.*
 
 - **[University HR Management System](https://github.com/YassinSabek2k05/University-Human-Resources-Management-System)**
@@ -50,7 +74,7 @@ Here is a timeline of my projects throughout my semesters at GUC.
   - *Tech:* Node.js, Express.js, MongoDB, EJS, Express-session
   - *Course:* CSEN 503 - Introduction to Communication Networks
 
-### 🎓 Semester 4
+### Semester 4
 - **[Jackaroo: A New Game Spin](https://github.com/YassinSabek2k05/Jackaroo-Team-28)**
   - *Description:* A custom single-player Jackaroo board game implementation featuring a complete game engine with OOP principles (encapsulation, inheritance, polymorphism, interfaces) and a JavaFX GUI with marble path mapping and interactive animations.
   - *Tech:* Java, JavaFX, OOP
@@ -70,18 +94,11 @@ Here is a timeline of my projects throughout my semesters at GUC.
   - *Description:* A DSP project implementing Fourier analysis to clean synthetic audio. Synthesized piano notes using sinusoidal summation and removed random noise using FFT-based filtering.
   - *Tech:* Python, NumPy, SciPy (FFT), Signal Processing
   - *Course:* COMM401 - Signal and System Theory
-
-### 🎓 Semester 3
-
-### 🎓 Semester 2
-
-### 🎓 Semester 1
-
 ---
 
-## 💼 Personal & Open-Source Projects
+## Personal & Open-Source Projects
 
-- **[Home Lab: Headless Debian Server](https://status.yassinsabek.dev)**
+- **[Home Lab: Headless Debian Server](https://yassinsabek.dev/projects/homelab)**
   - *Description:* A 24/7 headless Debian server running on dedicated low-power hardware, serving as a private sandbox for backend development, database orchestration, and systems testing.
   - *Key Features:* Engineered a stable Linux environment with optimized file permissions and static IP configuration. Configured secure remote access via Cloudflare Tunnels and SSH to expose internal services without compromising local network security.
   - *Core Services:*
@@ -97,18 +114,13 @@ Here is a timeline of my projects throughout my semesters at GUC.
 *Coming soon...* -->
 
 ---
-
-## 📫 How to reach me
-
+ 
+## Contact
+ 
+- Site: [yassinsabek.dev](https://yassinsabek.dev)
 - GitHub: [@YassinSabek2k05](https://github.com/YassinSabek2k05)
 - LinkedIn: [Yassin Sabek](https://www.linkedin.com/in/yassin-sabek/)
-- Personal Website: [yassinsabek.dev](https://yassinsabek.dev)
-
-### 📧 Emails
-- University Email: [yassin.sabek@student.guc.edu.eg](mailto:yassin.sabek@student.guc.edu.eg)
-- Contact: [contact@yassinsabek.dev](mailto:contact@yassinsabek.dev)
-
-
+- Email: [contact@yassinsabek.dev](mailto:contact@yassinsabek.dev)
 <!--
 **YassinSabek2k05/YassinSabek2k05** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 -->
