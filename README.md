@@ -2,7 +2,9 @@
 
 I am a Computer Science and Engineering student at the **German University in Cairo (GUC)**.
 
----
+More on the site: [yassinsabek.dev](https://yassinsabek.dev)
+
+ 
 ## Stack
  
 **Backend**
@@ -26,7 +28,7 @@ I am a Computer Science and Engineering student at the **German University in Ca
  
 **Languages, by usage across repos**
  
-![Top Langs](https://github-stats-extended.vercel.app/api/top-langs/?username=YassinSabek2k05&layout=compact&theme=default&hide_border=true&langs_count=8&hide=html)
+<picture> <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=YassinSabek2k05&layout=compact&hide=html&langs_count=8&hide_border=true&border_radius=6&title_color=7FB2E8&text_color=E8EAE6&bg_color=15181B" /> <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=YassinSabek2k05&layout=compact&hide=html&langs_count=8&hide_border=true&border_radius=6&title_color=17518F&text_color=191C1E&bg_color=F6F7F5" /> <img alt="Most used languages" width="480" src="https://github-stats-extended.vercel.app/api/top-langs/?username=YassinSabek2k05&layout=compact&hide=html&langs_count=8&hide_border=true&border_radius=6&title_color=17518F&text_color=191C1E&bg_color=F6F7F5" /> </picture>
 ---
 
 ## Academic Journey & Projects
@@ -51,12 +53,12 @@ Here is a timeline of my projects throughout my semesters at GUC.
   - *Tech:* Java, File-based storage, Bitmap indexing, Crash recovery
   - *Course:* Databases II — Solo build
 
-- **[GUC Project Portfolio Platform](https://github.com/YassinSabek2k05/[repo-unknown])**
+- **[GUC Project Portfolio Platform]()**
   - *Description:* A campus-wide platform for students to host course and bachelor projects, get supervisor feedback, and be discovered by employers. Requirements engineering in the first milestone, a React front end with mocked data in the second.
   - *Tech:* React, Requirements Engineering, UML / Design Patterns
   - *Course:* Software Engineering — Team project
   
-### Semester 5 (Current)
+### Semester 5 
 *Focusing on advanced topics and major projects.*
 
 - **[University HR Management System](https://github.com/YassinSabek2k05/University-Human-Resources-Management-System)**
