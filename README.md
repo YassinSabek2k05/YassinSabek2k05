@@ -8,7 +8,7 @@ More on the site: [yassinsabek.dev](https://yassinsabek.dev)
 ## Stack
  
 **Systems**
-![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![CMake](https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
@@ -21,6 +21,10 @@ More on the site: [yassinsabek.dev](https://yassinsabek.dev)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+
+**Daily setup**
+![CachyOS](https://img.shields.io/badge/CachyOS-00AA88?style=for-the-badge&logo=archlinux&logoColor=white)
+![Neovim](https://img.shields.io/badge/Neovim-57A143?style=for-the-badge&logo=neovim&logoColor=white)
  
 **Languages, by usage across repos**
  
@@ -69,11 +73,11 @@ Here is a timeline of my projects throughout my semesters at GUC.
 
 ## Personal & Open-Source Projects
 
-- **[Home Lab: Headless Debian Server](https://yassinsabek.dev/projects/homelab)**
-  - *Description:* A 24/7 headless Debian server running on dedicated low-power hardware, serving as a private sandbox for backend development, database orchestration, and systems testing.
+- **[Home Lab: Headless Linux Server](https://yassinsabek.dev/projects/homelab)**
+  - *Description:* A 24/7 headless Linux server running on dedicated low-power hardware, serving as a private sandbox for backend development, database orchestration, and systems testing.
   - *Key Features:* Engineered a stable Linux environment with optimized file permissions and static IP configuration. Configured secure remote access via Cloudflare Tunnels and SSH to expose internal services without compromising local network security.
   - *Core Services:*
-    - **OS:** Debian Linux (Stable)
+    - **OS:** Linux
     - **Backend Runtimes:** Node.js, Java (Spring Boot)
     - **Database Management:** PostgreSQL
     - **Networking & Security:** Cloudflare Tunnels, SSH Key Authentication, Systemd Service Management
